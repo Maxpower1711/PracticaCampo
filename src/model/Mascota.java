@@ -1,6 +1,7 @@
 package model;
 
 public class Mascota {
+    //prueba2 de git flow
     // Atributos privados
     private int codigo;
     private int edad;
