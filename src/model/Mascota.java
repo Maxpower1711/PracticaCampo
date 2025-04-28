@@ -3,13 +3,15 @@ package model;
 public class Mascota {
     // Atributos privados
     private int codigo;
+    private int edad;
     private String raza;
     private double peso;
     private int numeroVacunas;
 
     // Constructor explícito
-    public Mascota(int codigo, String raza, double peso, int numeroVacunas) {
+    public Mascota(int codigo, int edad ,String raza, double peso, int numeroVacunas) {
         this.codigo = codigo;
+        this.edad = edad;
         this.raza = raza;
         this.peso = peso;
         this.numeroVacunas = numeroVacunas;
@@ -22,6 +24,14 @@ public class Mascota {
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;
+    }
+    
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
 
     public String getRaza() {
