@@ -11,6 +11,7 @@ public class JFMascota extends javax.swing.JFrame {
     }
     
     //cambio establecido
+    //cambios a borrar
     //crear objeto
     ArregloMascota m = new ArregloMascota();
     
