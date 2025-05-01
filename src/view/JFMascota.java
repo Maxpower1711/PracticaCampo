@@ -10,6 +10,8 @@ public class JFMascota extends javax.swing.JFrame {
         initComponents();
     }
     
+    //git stash prueba 1
+    
     //crear objeto
     ArregloMascota m = new ArregloMascota();
     
