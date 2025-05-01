@@ -10,6 +10,7 @@ public class JFMascota extends javax.swing.JFrame {
         initComponents();
     }
     
+    //cambio establecido
     //crear objeto
     ArregloMascota m = new ArregloMascota();
     

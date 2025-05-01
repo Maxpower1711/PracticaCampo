@@ -1,7 +1,7 @@
 package model;
 
 public class Mascota {
-    
+
     // Atributos privados
     private int codigo;
     private int edad;
